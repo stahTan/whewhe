@@ -1,0 +1,10 @@
+<h1>Whe Whe Ticket Generator</h1>
+<div>
+    <app-bet-amount (betAmount) = "receivedBetAmount($event)"></app-bet-amount>
+    <app-number-picker (numList) = "receivedNumList($event)"></app-number-picker>
+</div>
+<br>
+<h2>Cash Out</h2>
+<div>   
+    <button id="ticketBtn" (click) = "generateTicket()" [disabled]="ableBtn" >Generate Ticket</button>
+</div>

@@ -1,0 +1,42 @@
+h2{
+    color: rgba(37, 19, 17, 0.774);
+}
+
+div.container{
+    background-color:darkseagreen;
+}
+div.numbers{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+div.buttons{
+    text-align:center;
+}
+
+
+button.tBtn{
+    background-color: white;
+    font-weight: bold;
+    border-color: slateblue;
+    padding: 20px;
+    margin: 6px 2px;
+    border-radius: 8px;
+}
+
+.purple {
+    color: white;
+    padding: 20px;
+    margin: 4px 2px;
+    border-radius: 8px;
+    background-color: darkslateblue;
+    cursor: allowed;
+}
+.yellow {
+    color: black;
+    padding: 20px;
+    margin: 4px 2px;
+    border-radius: 8px;
+    background-color: lightgoldenrodyellow;
+    cursor: not-allowed;
+}

@@ -1,0 +1,12 @@
+<div class="container">
+<h2>Choose Bet Amount</h2>
+<div class="values">
+    
+    <button *ngFor="let i of betVals" (click) = "addBet(i)">${{i}}</button>
+</div>
+
+
+<p>Total so far: ${{ betSum }}</p>
+</div>
+
+

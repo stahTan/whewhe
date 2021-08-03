@@ -1,0 +1,15 @@
+<div class="container">
+    <h2>Choose 3 numbers</h2>
+     
+    <div class="numbers">
+        <button *ngFor="let i of choiceNum" (click) = "chooseNum(i-1)" [ngClass] = "toggle[i-1] ? 'purple' : 'yellow'">{{i}}</button>
+    </div>
+        
+
+    <div class="buttons">
+        
+        <button class="tBtn" (click) = "rng()">Random</button>
+        <button class="tBtn" (click) = "clear()">Clear</button>
+    </div>
+</div>
+

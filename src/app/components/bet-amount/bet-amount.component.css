@@ -1,0 +1,26 @@
+h2, p{
+    color: rgba(37, 19, 17, 0.774);
+}
+
+.container{
+    background-color:lightblue;
+}
+div.values{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 5px;
+}
+
+button{
+    background-color:darkslateblue;
+    padding: 20px;
+    color: white;
+    margin: 5px 2px;
+    border-radius: 8px;
+}
+
+p{
+    text-align: center;
+    font-weight: bold;
+    font-size:20px;
+}
